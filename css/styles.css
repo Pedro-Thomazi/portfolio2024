@@ -299,25 +299,32 @@ p {
   pointer-events: all;
 }
 
-.listSocials li {
-  font-size: 1.2em;
-}
-
-.listSocials li a {
-  display: block;
+.listSocials a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   width: 100%;
   padding: 10px;
   color: #fff;
   transition: .4s;
 }
 
+.listSocials a p {
+  color: #fff;
+  margin: 0;
+}
 
-.listSocials li a:hover {
+
+.listSocials a:hover {
   background-color: #001935;
 }
 
-.listSocials li i {
+.listSocials i {
   margin-right: 10px;
+}
+
+#email {
+  cursor: pointer;
 }
 
 @media (max-width: 675px) {

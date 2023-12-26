@@ -25,9 +25,11 @@ bi_x_circle.addEventListener("click", () => {
   menuList.classList.remove('openMenu')
 })
 
-// email.addEventListener('click', () => {
-//   navigator.clipboard.writeText('pedro.thomazi@hotmail.com')
-// })
+email.addEventListener('click', () => {
+  navigator.clipboard.writeText(email.innerHTML).then(() => {
+    alert("E-mail Copiado")
+  })
+})
 
 for(let btn of btnMenu) {
   btn.addEventListener("click", () => {
