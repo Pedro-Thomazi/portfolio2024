@@ -585,6 +585,11 @@ body.bgWhite .containerParags .parags {
   color: #000;
 }
 
+body.bgWhite .listSocials a p , 
+body.bgWhite .listSocials a {
+  color: #fff;
+}
+
 
 /* Projetos */
 body.bgWhite .projects {
