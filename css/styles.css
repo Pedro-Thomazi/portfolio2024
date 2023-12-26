@@ -175,7 +175,7 @@ p {
 #myApresentation {
   background-color: #002249;
   width: 100%;
-  height: 55vh;
+  height: 100%;
   padding: 100px 0;
   transition: .4s;
 }
@@ -476,6 +476,7 @@ p {
 
 .cardProj:hover {
   border-color: #006fee;
+  box-shadow: 1px 1px 15px #006fee;
 }
 
 .cardProj .image {
