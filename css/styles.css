@@ -272,6 +272,7 @@ p {
   border-top-right-radius: 70%;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 40%;
+  transition: .4s;
 }
 
 .myPhoto img {
@@ -321,6 +322,7 @@ p {
 
 .listSocials i {
   margin-right: 10px;
+  color: #fff;
 }
 
 #email {
@@ -548,6 +550,11 @@ body.bgWhite .myPhoto {
 /* Apresentacao */
 body.bgWhite #myApresentation {
   background-color: #9cc7f8;
+}
+
+body.bgWhite .myPhoto {
+  background-color: #01428d;
+  box-shadow: 1px 1px 20px #01428d;
 }
 
 body.bgWhite .myContainer {
